@@ -1,6 +1,10 @@
 # Data Warehouse and ETL implemented by AWS Glue and Redshift
 
+__Motivation:__\
+To brush up my ETL memory and also practice AWS redshift (data warehouse) and AWS glue (ETL tool), I stored a 'book.csv' file in to S3. Then, used glue to transform all the data into redshift.
 
+# The project's flow chart
+<img src = "ETL_flowchart.jpg" width='900' heigh='600'>
 
 # References
 [Data](https://www.kaggle.com/jealousleopard/goodreadsbooks?select=books.csv)\
