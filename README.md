@@ -23,7 +23,7 @@ __Inbound & Outbound rule__\
 <img src = "p_redshift_inbond.png" width='900' heigh='600'>\
 <img src = "p_redshift_outbound.png" width='900' heigh='600'>\
 
-__S3 Endpoint__
+__S3 Endpoint__\
 <img src = "p_S3endpoint.png" width='900' heigh='600'>\
 
 __Step 4. Glue - Create a Job__
