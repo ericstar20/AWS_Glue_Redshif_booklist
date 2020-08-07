@@ -33,7 +33,6 @@ A job is your business logic required to perform extract, transform and load (ET
 
 __Step 5. Redshift - Used query editor to see a result__
 <img src = "Final_output.gif" width='900' heigh='600'>\
-__
 
 # Summary
 ETL is an important concept in the data analysis field and AWS makes implementing ETL easily. However, during this project, I learned a lot of new things related to  AWS configuration. Setting up an SG (inbound & outbound rule) is really complex. I need to do more research in this field! Anyway, hope you can gain something from this project and see you in the next project!
