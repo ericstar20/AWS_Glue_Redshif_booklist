@@ -6,7 +6,7 @@ To brush up my ETL memory and also practice AWS redshift (data warehouse) and AW
 # The project's flow chart
 <img src = "ETL_flowchart.jpg" width='900' heigh='600'>
 
-__Step 1. Store books.csv file into S3__
+__Step 1. Store books.csv file into S3__\
 The easiest part in this project. Just upload the file into S3.
 
 __Step 2. Glue - Crawlers__
