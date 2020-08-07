@@ -24,15 +24,15 @@ __Inbound & Outbound rule__\
 <img src = "p_redshift_outbound.png" width='900' heigh='600'>\
 
 __S3 Endpoint__\
-<img src = "p_S3endpoint.png" width='900' heigh='600'>\
+<img src = "p_S3endpoint.png" width='900' heigh='600'>
 
 ### Step 4. Glue - Create a Job
 
 A job is your business logic required to perform extract, transform and load (ETL) work. Job runs are initiated by triggers which can be scheduled or driven by events. It can generate the ETL code automatically.
-<img src = "p_jobschema.png" width='900' heigh='600'>\
+<img src = "p_jobschema.png" width='900' heigh='600'>
 
 ### Step 5. Redshift - Used query editor to see a result
-<img src = "Final_output.gif" width='900' heigh='600'>\
+<img src = "Final_output.gif" width='900' heigh='600'>
 
 # Summary
 ETL is an important concept in the data analysis field and AWS makes implementing ETL easily. However, during this project, I learned a lot of new things related to  AWS configuration. Setting up an SG (inbound & outbound rule) is really complex. I need to do more research in this field! Anyway, hope you can gain something from this project and see you in the next project!
