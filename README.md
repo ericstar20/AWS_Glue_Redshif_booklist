@@ -6,16 +6,16 @@ To brush up my ETL memory and also practice AWS redshift (data warehouse) and AW
 # The project's flow chart
 <img src = "ETL_flowchart.jpg" width='900' heigh='600'>
 
-__Step 1. Store books.csv file into S3__\
+### Step 1. Store books.csv file into S3
 The easiest part in this project. Just upload the file into S3.
 
-__Step 2. Glue - Crawlers__
+### Step 2. Glue - Crawlers
 
 A crawler connects to a data store, progresses through a prioritized list of classifiers to determine the schema for your data, and then creates metadata tables in your data catalog.\
 This function can help you creating Table schema effortless.
 <img src = "p_crwaels.png" width='900' heigh='600'>
 
-__Step 3. Redshift - Create a cluster and set up SG & S3 Endpoint__
+### Step 3. Redshift - Create a cluster and set up SG & S3 Endpoint
 <img src = "p_redshiftCluster.png" width='900' heigh='600'>\
 This step stuck me over 4 hours. You need to set up the right security group. Otherwise, you will encounter an S3 connection error in the final step. If you want to avoid this problem, follow the set up in the below pictures. If you want to see more detail, click [here](https://docs.aws.amazon.com/glue/latest/dg/setup-vpc-for-glue-access.html).
 
@@ -26,12 +26,12 @@ __Inbound & Outbound rule__\
 __S3 Endpoint__\
 <img src = "p_S3endpoint.png" width='900' heigh='600'>\
 
-__Step 4. Glue - Create a Job__
+### Step 4. Glue - Create a Job
 
 A job is your business logic required to perform extract, transform and load (ETL) work. Job runs are initiated by triggers which can be scheduled or driven by events. It can generate the ETL code automatically.
 <img src = "p_jobschema.png" width='900' heigh='600'>\
 
-__Step 5. Redshift - Used query editor to see a result__
+### Step 5. Redshift - Used query editor to see a result
 <img src = "Final_output.gif" width='900' heigh='600'>\
 
 # Summary
