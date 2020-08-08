@@ -21,7 +21,7 @@ This step stuck me over 4 hours. You need to set up the right security group. Ot
 
 __Inbound & Outbound rule__\
 <img src = "p_redshift_inbond.png" width='900' heigh='600'>\
-<img src = "p_redshift_outbound.png" width='900' heigh='600'>\
+<img src = "p_redshift_outbound.png" width='900' heigh='600'>
 
 __S3 Endpoint__\
 <img src = "p_S3endpoint.png" width='900' heigh='600'>
@@ -42,6 +42,6 @@ ETL is an important concept in the data analysis field and AWS makes implementin
 [Tutorial Link 1](https://www.youtube.com/playlist?list=PL3GCZkoyKK4fEUDH2UMMj0eumx2NqPP1J)\
 [Tutorial link 2](https://www.youtube.com/watch?v=8t5pNcSnebQ&t=11s)\
 [Handling the error when connected glue to redshift.](https://stackoverflow.com/questions/46531522/glue-job-for-redshift-connection-unable-to-find-suitable-security-group)\
-[Handling S3 endpoint error](https://stackoverflow.com/questions/55972886/could-not-find-s3-endpoint-or-nat-gateway-for-subnetid)
-[setting up redshift connecting to s3](https://docs.aws.amazon.com/glue/latest/dg/setup-vpc-for-glue-access.html)
+[Handling S3 endpoint error](https://stackoverflow.com/questions/55972886/could-not-find-s3-endpoint-or-nat-gateway-for-subnetid)\
+[setting up redshift connecting to s3](https://docs.aws.amazon.com/glue/latest/dg/setup-vpc-for-glue-access.html)\
 [How to find S3 prefix id](https://docs.aws.amazon.com/vpc/latest/userguide/managed-prefix-lists.html)
